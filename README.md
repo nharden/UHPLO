@@ -1,1 +1,9 @@
 # UHPLO
+
+# BACKGROUND
+This program trains an AI agent to play a modified version of Leduc Hold'em Poker (called UH Leduc Hold'em Poker) using reinforcement learning. The rules for this game may be found in the next section. 
+
+# RULES FOR THE GAME
+UH Leduc Hold'em Poker is a poker game for two players called Player S and Player T. In each round, the players must ante 1 chip into the pot and then they are dealt a private card from an 18 card deck. The deck contains 4 Aces, 4 Kings, 6 Queens, and 4 Jacks, with each card rank containing an equal number of Hearts and Spades. After each player is dealt a private card, a round of betting takes place. Each bet or raise is exactly 3 chips, and each player can only check once and raise once per round of betting. Only the second player, Player T, may raise a raise. Players may fold rather than call their opponents bet or raise. After the first round of betting is concluded a public card is revealed from the deck. This is called the flop. Another round of betting takes place except this time a player may not check if they did not bet or call a bet in the previous round, but rather they must either fold or bet. 
+
+After both rounds of betting are concluded each player reveals their private card. If no player has paired their private card with the flop then the player with the highest ranked card takes the pot. If a player pairs their private card with the flop and the other player doesn't then the first player takes the pot. In the event that both players have a card with the same rank, the player with the better suit wins (Spades trump Hearts in this version of poker.) If both players have the exact same private card then the hand is a draw and the pot is divided evenly between the players. This process is repeated for a predetermined number of rounds.
